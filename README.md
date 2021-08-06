@@ -14,6 +14,14 @@ The target user persona is someone who steps into a manufacturing facility that 
 
 ### Solution Overview
 
-The Knowledge Nuggets system acts as a helpful guide that assists the user in addressing the above challenges. The system attempts to capture the experience of people who already know how to be productive with the environment/tools and provide orientation and guidance to help them accomplish their tasks. Beyond the completion of the immediate task, the system also provides opportunities and incentives to gain proficiency and become certified, and thereby unlock rewards and additional access.
+The Knowledge Nuggets system acts as a helpful guide that assists the user in addressing the above challenges. The system attempts to capture the experience of people who already know how to be productive with the environment/tools and provide orientation and guidance to help them accomplish their tasks. 
 
-See attached slides containing the high level design of the system.
+The system uses stickers with QR codes to uniquely identify items and associate them with the appropriate knowledge nugget. The system includes an approval process to ensure the quality of information entered.
+
+By facilitating the easy retrieval of relevant information, the system helps the user successfully complete their intended task. Beyond the completion of the immediate task, the system also provides opportunities and incentives to gain proficiency and become certified, and thereby unlock rewards and additional access.
+
+See attached slides containing:
+1. Design goals
+2. Design diagram
+3. Capabilities - Minimum viable product and enhancements (roadmap)
+4. Constraints and known issues
