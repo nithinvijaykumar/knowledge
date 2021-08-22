@@ -1,0 +1,20 @@
+2021-08-22T00:42:21+00:00 CRITICAL Uncaught Error: Call to a member function attributes() on bool in /var/www/html/wp-content/plugins/elementor/core/files/assets/svg/svg-handler.php:656
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): Elementor\Core\Files\Assets\Svg\Svg_Handler->set_svg_meta_data(Array, 1018)
+#1 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-includes/post.php(6261): apply_filters('wp_update_attac...', Array, 1018)
+#3 /var/www/html/wp-content/plugins/astra-sites/inc/importers/wxr-importer/class-wxr-importer.php(1218): wp_update_attachment_metadata(1018, Array)
+#4 /var/www/html/wp-content/plugins/astra-sites/inc/importers/wxr-importer/class-wxr-importer.php(997): WXR_Importer->process_attachment(Array, Array, 'https://website...')
+#5 /var/www/html/wp-content/plugins/astra-sites/inc/importers/wxr-importer/class-wxr-importer.php(495): WXR_Importer->process_post(Array, Array, Array, Array)
+#6 /var/www/html/wp-content/plugins/astra-sites/inc/importers/wxr-importer in /var/www/html/wp-content/plugins/elementor/core/files/assets/svg/svg-handler.php on line 656
+
+2021-08-22T00:44:03+00:00 CRITICAL Uncaught Error: Call to a member function attributes() on bool in /var/www/html/wp-content/plugins/elementor/core/files/assets/svg/svg-handler.php:656
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(292): Elementor\Core\Files\Assets\Svg\Svg_Handler->set_svg_meta_data(Array, 1048)
+#1 /var/www/html/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#2 /var/www/html/wp-includes/post.php(6261): apply_filters('wp_update_attac...', Array, 1048)
+#3 /var/www/html/wp-content/plugins/astra-sites/inc/importers/wxr-importer/class-wxr-importer.php(1218): wp_update_attachment_metadata(1048, Array)
+#4 /var/www/html/wp-content/plugins/astra-sites/inc/importers/wxr-importer/class-wxr-importer.php(997): WXR_Importer->process_attachment(Array, Array, 'https://website...')
+#5 /var/www/html/wp-content/plugins/astra-sites/inc/importers/wxr-importer/class-wxr-importer.php(495): WXR_Importer->process_post(Array, Array, Array, Array)
+#6 /var/www/html/wp-content/plugins/astra-sites/inc/importers/wxr-importer in /var/www/html/wp-content/plugins/elementor/core/files/assets/svg/svg-handler.php on line 656
+
