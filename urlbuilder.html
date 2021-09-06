@@ -1,4 +1,3 @@
-<body>
 If that doesn't work, please build the URL:
 <form id="urlbuilder" class="form-inline">
 <strong>
@@ -12,14 +11,17 @@ If that doesn't work, please build the URL:
 <input id="identifier" type="text" class="form-control" required>
 </strong>
 <br><br>
+</form>
+
+<div>
 <strong>
 <a id="result" href="#"></a>
 </strong>
-</form>
-</body>
+</div>
+
 
 <script>
-document.querySelector('#baseurl').innerHTML = window.location.href.replace('urlbuilder.html', '');
+document.querySelector('#baseurl').innerHTML = window.location.href.replace('scan/', '');
 function updateResult() {
   var result;
   result = document.querySelector('#baseurl').innerHTML;
