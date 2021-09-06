@@ -1,0 +1,32 @@
+<body>
+If that doesn't work, please build the URL:
+<form id="urlbuilder" class="form-inline">
+<strong>
+<span id="baseurl">https://knowledge.cloudmatica.com/</span>
+<select id="dropdown" class="custom-select">
+  <option value="item" selected>item</option>
+  <option value="workspace">workspace</option>
+  <option value="site">site</option>
+</select>
+/
+<input id="identifier" type="text" class="form-control" required>
+</strong>
+<br><br>
+<strong>
+<a id="result" href="#"></a>
+</strong>
+</form>
+</body>
+
+<script>
+document.querySelector('#baseurl').innerHTML = window.location.href.replace('urlbuilder.html', '');
+function updateResult() {
+  var result;
+  result = document.querySelector('#baseurl').innerHTML;
+  result = result + document.querySelector('#dropdown').value;
+  result = result + '/' + document.querySelector('#identifier').value;
+  document.querySelector('#result').innerHTML = result;
+  document.querySelector('#result').setAttribute('href', result);
+}
+document.querySelector('#urlbuilder').addEventListener('input', updateResult);
+</script>
