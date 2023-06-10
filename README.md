@@ -25,3 +25,7 @@ See attached slides containing:
 2. Design diagram
 3. Capabilities - Minimum viable product and enhancements (roadmap)
 4. Constraints and known issues
+
+
+Video explanation:
+https://youtu.be/674QZpfr0kE
